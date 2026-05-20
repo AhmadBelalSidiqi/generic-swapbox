@@ -33,4 +33,15 @@ public class SwapBox<T>{
     public String describe(){
         return String.format("Left: %s, Right: %s",this.leftItem.toString() ,this.rightItem.toString());
     }
+
+    public boolean itemsMatch(){
+     return this.leftItem.equals(this.rightItem);
+
+    }
+
+    public boolean contains(T item){
+        return this.leftItem.equals(item) || this.rightItem.equals(item);
+    }
+
+
 }
