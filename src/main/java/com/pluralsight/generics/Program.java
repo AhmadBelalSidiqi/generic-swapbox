@@ -29,6 +29,8 @@ public class Program {
         System.out.println(compareInteger.itemsMatch());
         System.out.println(comparePrices.itemsMatch());
 
+        System.out.println(compareString.contains("Coffee"));
+
 
 
 
